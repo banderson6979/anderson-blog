@@ -15,15 +15,15 @@
   <% end %>
 
 <div class="form-group">
-  <% f.input :title, class: "form-control" %>
+  <%= f.input :title, class: "form-control" %>
 </div>
 
 <div class="form-group">
-  <% f.input :body, :as => :ckeditor, input_html: {:ckeditor => {:toolbox => 'FULL'}}, class: "form-control" %>
+  <%= f.input :body, :as => :ckeditor, input_html: {:ckeditor => {:toolbox => 'FULL'}}, class: "form-control" %>
 </div>
 
 <div class="form-group">
-  <% f.button :submit %>
+  <%= f.button :submit %>
 </div>
 
 <% end %>

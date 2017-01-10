@@ -4,7 +4,7 @@ class PostsController < ApplicationController
 
   # Index action to render all posts.
   def index
-    @posts = Post.all
+    @posts = Post.all.order(created_at: :desc)
   end
 
   # New action for creating posts.
@@ -14,8 +14,8 @@ class PostsController < ApplicationController
 
   # Creat action saves the post into the database
   def create
-    @post = Post.new
-    if @post.save(post_params)
+    @post = Post.new(post_params)
+    if @post.save
       flash[:notice] = "Successfully created post!"
       redirect_to post_path(@post)
     else
@@ -58,5 +58,5 @@ class PostsController < ApplicationController
   def find_post
     @post = Post.find(params[:id])
   end
-  
+
 end

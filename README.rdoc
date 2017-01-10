@@ -1,3 +1,5 @@
+=begin readme
+
 # Blog application
 
 {<img src="https://codeclimate.com/github/banderson6979/anderson-blog/badges/gpa.svg" />}[https://codeclimate.com/github/banderson6979/anderson-blog]
@@ -24,3 +26,5 @@ The following gems are used in the application.
 
 ### WIP's
  1. Display user avatar in post and blog navigation.
+
+=end

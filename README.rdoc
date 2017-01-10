@@ -1,5 +1,7 @@
 # Blog application
 
+[![Code Climate](https://codeclimate.com/github/banderson6979/anderson-blog.svg)](https://codeclimate.com/github/banderson6979/anderson-blog)
+
 Ruby on Rails Blog application.
 
 This blog application is intended to offer a simple blog application with minimal

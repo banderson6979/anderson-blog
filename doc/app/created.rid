@@ -1,0 +1,14 @@
+Tue, 10 Jan 2017 17:10:01 -0500
+README.rdoc	Tue, 10 Jan 2017 17:09:13 -0500
+app/controllers/application_controller.rb	Tue, 10 Jan 2017 16:52:39 -0500
+app/controllers/posts_controller.rb	Tue, 10 Jan 2017 15:19:09 -0500
+app/helpers/application_helper.rb	Tue, 10 Jan 2017 12:44:04 -0500
+app/helpers/posts_helper.rb	Tue, 10 Jan 2017 12:56:59 -0500
+app/models/admin.rb	Tue, 10 Jan 2017 16:49:05 -0500
+app/models/ckeditor/asset.rb	Tue, 10 Jan 2017 14:07:03 -0500
+app/models/ckeditor/attachment_file.rb	Tue, 10 Jan 2017 14:07:03 -0500
+app/models/ckeditor/picture.rb	Tue, 10 Jan 2017 14:07:03 -0500
+app/models/post.rb	Tue, 10 Jan 2017 16:12:11 -0500
+app/uploaders/avatar_uploader.rb	Tue, 10 Jan 2017 16:47:36 -0500
+app/uploaders/ckeditor_attachment_file_uploader.rb	Tue, 10 Jan 2017 14:07:03 -0500
+app/uploaders/ckeditor_picture_uploader.rb	Tue, 10 Jan 2017 14:07:03 -0500

@@ -1,28 +1,24 @@
-== README
+# Blog application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails Blog application.
 
-Things you may want to cover:
+This blog application is intended to offer a simple blog application with minimal
+learning curve. I has simple defaults and feature sets however, could be customized
+to suit other needs.
 
-* Ruby version
+Please use [GitHub Issues] to report bugs.
 
-* System dependencies
+## Getting Started
 
-* Configuration
+Rails '>= 4.2.3' and Ruby '>= 2.1.0p0'
 
-* Database creation
+The following gems are used in the application.
+'simple_form', '~> 3.2'
+'bootstrap-sass', '~> 3.3'
+'ckeditor', '~> 4.1'
+'devise'
+'carrierwave'
+'mini_magick'
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+### WIP's
+ 1. Display user avatar in post and blog navigation.

@@ -18,6 +18,10 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'ckeditor', '~> 4.1'
 # use Devise for user authenication and management
 gem 'devise'
+# user Carrierwave for seamless image uploads
+gem 'carrierwave'
+# use mini_magick for image processing
+gem 'mini_magick'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks

@@ -1,6 +1,7 @@
 =Blog Application
 
 {<img src="https://codeclimate.com/github/banderson6979/anderson-blog/badges/gpa.svg" />}[https://codeclimate.com/github/banderson6979/anderson-blog]
+{<img src="https://travis-ci.org/banderson6979/simple-blog.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/banderson6979/simple-blog]
 
 Ruby on Rails Blog application.
 
